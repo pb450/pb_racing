@@ -26,6 +26,10 @@ RegisterCommand("createtrack", function (a,b,c)
     TriggerEvent('pb_racing:public:openCreator')
 end, false)
 
+RegisterCommand('racemenu', function(a, b, c)
+    TriggerEvent('pb_racing:public:bringRaceMenu')
+end, false)
+
 function FormatSeconds(seconds)
     local minutes = math.floor(seconds / 60)
     local seconds = seconds - minutes * 60

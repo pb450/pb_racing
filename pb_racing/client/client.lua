@@ -403,9 +403,9 @@ function JoinRaceScreen()
     end)
 end
 
-RegisterCommand('racemenu', function(a, b, c)
+AddEventHandler('pb_racing:public:bringRaceMenu', function ()
     OpenRaceMenu()
-end, false)
+end)
 
 function OpenRaceMenu()
     local _options = {

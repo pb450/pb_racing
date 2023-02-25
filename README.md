@@ -19,5 +19,6 @@ Installation:
 - Setup permissions in config/ServerFunctions.lua and settings in config/config.lua
 - Add start/ ensure in your .cfg file
 
-Learn about functions for this script here and about creator here
+Remember to setup triggers/callbacks in your script if you want to operate this script from yours. If you do this remove addons/player.lua from fxmanifest.lua
+
 See showcase [here](https://youtu.be/vQpSyQABEcg) and [here](https://youtu.be/ebEtwXBmJ00)

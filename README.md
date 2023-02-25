@@ -19,6 +19,6 @@ Installation:
 - Setup permissions in config/ServerFunctions.lua and settings in config/config.lua
 - Add start/ ensure in your .cfg file
 
-Remember to setup triggers/callbacks in your script if you want to operate this script from yours. If you do this remove addons/player.lua from fxmanifest.lua
+Remember to setup triggers/callbacks in your script if you want to operate this script from yours. If you do this remove addons/player.lua from fxmanifest.lua. More about them can be found [here](https://github.com/pb450/pb_racing/wiki/Script-events-and-callbacks---Permission)
 
 See showcase [here](https://youtu.be/vQpSyQABEcg) and [here](https://youtu.be/ebEtwXBmJ00)
